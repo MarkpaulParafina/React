@@ -1,0 +1,69 @@
+header li{
+  display: inline-block;
+  padding-right: 10px;
+  text-decoration: none;
+}
+header ul{
+  text-align: right;
+}
+header li a{
+  text-decoration: none;
+}
+.card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(172, 155, 155);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: rgb(139, 84, 18);
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: rgb(131, 89, 39);
+}
+
+.product{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+}
+
+.product p{
+  margin: 0;
+}
+
+.welcome-message{
+  font-size: 2.5 em;
+  background-color: rgb(166, 47, 47);
+  color: bisque;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.login-promt{
+  font-size: 2.5 em;
+  background-color: rgb(230, 206, 153);
+  color: rgb(204, 63, 48);
+  border-radius: 5px;
+  text-align: center;
+}
